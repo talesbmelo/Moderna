@@ -1,0 +1,220 @@
+/* 
+SELETORES
+. - classe
+# - ID
+tag  */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url('../images/netflix-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+        height: 90px;
+}
+
+.link_logo{
+    line-height: 130px;
+}
+
+#logo {
+    height: 45px;
+    width: 167px;
+    margin-left: 40px;
+    z-index: 1;
+}
+
+.background {
+    opacity: 0.5;
+    width: 100%;
+    min-height: 140vh;
+    content: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: black;
+    }
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.preto {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+section{
+   
+    width: 500px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    padding: 60px;
+}
+
+h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 500px;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 5px;
+    background-color:  rgb(53, 49, 49);
+}
+
+button {
+    height: 50px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.grupo {
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.lembre-se {
+    display: flex;
+    align-items: center;
+    
+    height: 20px;
+}
+
+.lembre-se > input {
+    width: 18px;
+    margin: 0 5px 0 0;
+}
+
+.ancora {
+    color: grey;
+    text-decoration: none;
+}
+
+.ancora:hover {
+    text-decoration: underline;
+}
+
+.assine {
+    color: gray;
+    margin-top: 50px;
+}
+
+.assine .ancora {
+    color: white;
+}
+
+
+.privacidade {
+    color: gray;
+}
+
+.privacidade .ancora {
+    color: blue;
+}
+
+.footer .preto {
+
+}
+
+.rodape {
+    padding: 40px;
+    padding-left: 180px;
+    position: relative;
+    bottom: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.duvidas {
+    display: flex;
+    color: gray;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+.perguntas {
+    color: gray;
+    margin-bottom: 20px;
+    margin-right: 7%;
+    white-space: nowrap;
+}
+
+
+.central_de_ajuda {
+    color: gray;
+    margin-bottom: 20px;
+    margin-right: 7%;
+    white-space: nowrap;
+
+}
+   
+.termos_de_uso {
+    color: gray;
+    margin-bottom: 20px;
+    margin-right: 7%;
+    white-space: nowrap;
+
+}
+
+.privacidade_footer {
+    color: gray;
+    margin-bottom: 20px;
+    margin-right: 7%;
+    white-space: nowrap;
+
+}
+
+.preferencias_de_cookies {
+    color: gray;
+    margin-bottom: 20px;
+    margin-right: 7%;
+    white-space: nowrap;
+
+}
+
+.informacoes_corporativas {
+    color: gray;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+select {
+    background-color:  black;
+    color: gray;
+    height: 50px;
+    width: 140px;
+}

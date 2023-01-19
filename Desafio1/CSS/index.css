@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(../Images/background-leao.jpg);
+    background-size: cover;
+    background-repeat: round;
+    min-height: 100vh;    
+    opacity: ;
+}   
+
+.cor_letra{
+    color: gold;
+    -webkit-text-stroke: 1px red;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.link_logo {
+    margin-top: 10px;
+}
+h1{
+    font-size: 46px;
+    font-weight: 500px;
+    margin-top: 0;
+    color: gold;
+    -webkit-text-stroke: 1px red;
+    margin-left: 16%;
+    margin-right: 10%;
+}
+
+.background {
+    opacity: 0.0;
+    width: 100%;
+    min-height: 140vh;
+    content: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: white;
+    }
+
+h2 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: gold;
+    -webkit-text-stroke: 1px red; 
+    text-align: center;   
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.local-horario {
+    margin-top: 130px;
+    margin-right: 50px;
+    font-size: 18px;
+    color: gold;
+    -webkit-text-stroke: 1px red;    
+    margin-left: 40%;
+    text-align: center;
+}
+
+
+section{
+    width: 350px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(248, 6, 6, 0.1);
+    margin-left: 60px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+h3{
+    color: gold;
+    -webkit-text-stroke: 1px red; 
+    font-size: 32px;
+    font-weight: 500px;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    height: 35px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 5px;
+    background-color:  rgb(53, 49, 49);
+}
+
+button {
+    height: 35px;
+    background-color: red;
+    border-radius: 5px;
+    color: yellow;
+}
+
+
+
+.grupo {
+    font-size: 12px;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.lembre-se {
+    display: flex;
+    align-items: center;
+    
+    height: 20px;
+}
+
+.lembre-se > input {
+    width: 18px;
+    margin: 0 5px 0 0;
+}
+
+.ancora {
+    color: grey;
+    text-decoration: none;
+}
+
+.link {
+    margin-top: 4px;
+    color: red;
+}
+
+.link .ancora {
+    color: red;
+}
+
+.ancora:hover {
+    text-decoration: underline;
+}
+
+.assine {
+    color: gray;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.assine .ancora {
+    color: white;
+}
+
+.opcoes {
+    color: gold;
+    -webkit-text-stroke: 1px red;
+    
+}
+
+.membros {
+    margin-bottom: 10px;
+}
+
+.videos {
+    margin-bottom: 10px;
+}
+
+.lista {
+    margin-bottom: 10px;
+}
+
+.copa {
+    margin-bottom: 10px;
+}
+
+.whatsapp 
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 1px 1px 1px #888;
+}
+
+.contato {
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape {
+    
+    padding-left: 80px;
+    position: relative;
+    bottom: 0;
+    margin-right: 20px;
+}
+
+.historia {
+    color: gray;
+    margin-bottom: 20px;
+    width: 33%;
+    white-space: nowrap;
+}
+
+
+.regras {
+    color: gray;
+    margin-bottom: 20px;
+    width: 33%;
+    white-space: nowrap;
+
+}
+   
+.membros-rodape {
+    color: gray;
+    margin-bottom: 20px;
+    width: 33%;
+    white-space: nowrap;
+
+}
+
+.participe {
+    color: gray;
+    margin-bottom: 20px;
+    width: 33%;
+    white-space: nowrap;
+
+}
+
+.foot1 {
+    width: 20%;
+}
+
+.foot2 {
+    width: 20%;
+}
+
+.privacidade-footer {
+    color: gray;
+    margin-bottom: 20px;
+    width: 33%;
+    white-space: nowrap;
+
+}
+
+.preferencias-cookies {
+    color: gray;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+select {
+    background-color:  black;
+    color: gray;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+
+.contato {
+    font-size: 18px;
+}
